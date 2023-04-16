@@ -1,0 +1,11 @@
+name = input ("What is your name? ")
+age = int(input ("How old are you? "))
+years = int (100-age)
+current_year = int(2023)
+age100 = years + current_year
+solution = (f"In the year {age100}, you will turn 100 years old, sucka.\n")
+print (solution)
+
+b = input ("Enter a number! ")
+c =int (b)
+print(solution * c)
